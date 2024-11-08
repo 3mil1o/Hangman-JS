@@ -1,0 +1,111 @@
+body {
+    background: rgb(204, 153, 102); 
+}
+
+main {
+    max-width: 650px;
+    margin: auto;
+}
+
+h1, h5 {
+    text-align: center;
+    color: rebeccapurple; 
+    font-family: "Arial", sans-serif; 
+    font-size: 28px; 
+}
+
+.win {
+    color: white;
+    background-color: #4CAF50; 
+    font-family: "Arial", sans-serif; 
+}
+
+.loss {
+    color: white;
+    background-color: #FF5733; 
+    font-family: "Arial", sans-serif; 
+}
+
+#word {
+    letter-spacing: 8px;
+    text-align: center;
+    font-size: 28px; 
+    color: rgb(255, 215, 0); 
+    font-weight: bold;
+    font-family: "Courier New", Courier, monospace;
+}
+
+#guesses {
+    text-align: center;
+    font-size: 18pt; 
+    color: rgb(255, 215, 0); 
+    font-weight: bold;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.guess {
+    padding: 12px;
+    display: inline-block;
+    border: 2px solid rgb(255, 215, 0); 
+    border-radius: 12px;
+    margin: 8px;
+    cursor: pointer;
+    font-family: "Arial", sans-serif; 
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+    #guesses {
+        text-align: center;
+        font-size: 22pt; 
+        color: rgb(255, 215, 0); 
+        font-weight: bold;
+        font-family: "Courier New", Courier, monospace;
+    }
+
+    .guess {
+        padding: 35px; 
+        display: inline-block;
+        border: 2px solid rgb(255, 215, 0); 
+        border-radius: 12px;
+        margin: 12px; 
+        cursor: pointer;
+        font-family: "Arial", sans-serif; 
+    }
+}
+
+#guessBox {
+    height: 65px;
+    border-radius: 12px;
+    padding-top: 7px;
+    font-size: 20pt; 
+    width: 220px;
+    padding-left: 12px;
+}
+
+.button {
+    display: inline-block;
+    padding: 18px 30px;
+    font-size: 26px; 
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #800080; 
+    background-color: #fff; 
+    border: none;
+    border-radius: 18px;
+    box-shadow: 0 10px #888;
+    font-family: "Arial", sans-serif; 
+}
+
+.button:hover {
+    background-color: #6a006a; 
+    color: white; 
+}
+
+.button:active {
+    background-color: #6a006a; 
+    box-shadow: 0 6px #777;
+    transform: translateY(4px);
+    color: white; 
+}
